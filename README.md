@@ -20,11 +20,11 @@ Kaggle
 - Cholesterol Category, which categorises the cholesterol column into normal (<200), borderline (200-239) and high (>240)
 - Heart rate categories: The heart rate column is divided into normal (60-100) and fast (>100)
 ### DAX FUNCTION 
--	TOTAL PATIENTS = COUNT('Heart Prediction  Dataset'[Age]) 
--	AVERAGE AGE = ROUNDUP(AVERAGE('Heart Prediction  Dataset'[Age]),0)
--	AVERAGE BLOODPRESSURE = ROUNDUP(AVERAGE('Heart Prediction  Dataset'[BloodPressure]),0)
--	AVERAGE CHOLESTEROL = ROUNDUP(AVERAGE('Heart Prediction  Dataset'[Cholesterol]),0)
--	AVERAGE HEARTRATE LEVEL = ROUNDUP(AVERAGE('Heart Prediction  Dataset'[HeartRate]),0)
+-	TOTAL PATIENTS = COUNT('Heart Disease Risk Factor'[Age]) 
+-	AVERAGE AGE = ROUNDUP(AVERAGE('Heart Disease Risk Factor'[Age]),0)
+-	AVERAGE BLOODPRESSURE = ROUNDUP(AVERAGE('Heart Disease Risk Factor'[BloodPressure]),0)
+-	AVERAGE CHOLESTEROL = ROUNDUP(AVERAGE('Heart Disease Risk Factor'[Cholesterol]),0)
+-	AVERAGE HEARTRATE LEVEL = ROUNDUP(AVERAGE('Heart Disease Risk Factor'[HeartRate]),0)
 ### DATA ANALYSIS
 - Identify patterns and potential risk factors associated with heart disease, using cholesterol level, blood pressure and heart rate level, providing valuable insights for prevention and diagnosis
 - Demographic analysis of age and gender prevalence to heart disease
